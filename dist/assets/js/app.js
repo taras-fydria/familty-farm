@@ -21574,7 +21574,7 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).foundation();
 var map;
 
 function initMap() {
-  map = new google.maps.Map(jquery__WEBPACK_IMPORTED_MODULE_0___default()('.ba-map__body'), {
+  map = new google.maps.Map(document.getElementsByClassName('ba-map__body'), {
     center: {
       lat: -34.397,
       lng: 150.644
@@ -21582,6 +21582,8 @@ function initMap() {
     zoom: 8
   });
 }
+
+;
 
 /***/ }),
 
