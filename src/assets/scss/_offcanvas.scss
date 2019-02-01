@@ -1,0 +1,15 @@
+.ba-nav{
+    padding: 15px 0;
+    &__menu{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        a{
+            color: $black;
+            &:hover{
+                text-decoration: underline;
+                color: $primary-color;
+            }
+        }
+    }
+}

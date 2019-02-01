@@ -1,0 +1,51 @@
+.ba-header {
+    padding: 7px 0;
+
+    &__row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1920px;
+        margin: 0 auto;
+        padding: 0 25px;
+        position: relative;
+        z-index: 1;
+    }
+
+    &--right {
+        button {
+            color: #171717
+        }
+    }
+
+    .ba-search {
+        cursor: pointer;
+        color: #171717;
+
+        &:hover {
+            opacity: 0.5;
+        }
+
+        svg {
+            color: currentColor;
+        }
+    }
+
+    &__logo {
+        height: 200px;
+        width: 200px;
+        display: block;
+        background: #81c14b;
+        background-image: url(../img/logo.svg);
+        background-repeat: no-repeat;
+        position: absolute;
+        background-size: contain;
+        left: 50%;
+        transform: translateX(-50%);
+        top: -7px;
+        overflow: hidden;
+        background-size: 66%;
+        background-position: 50% 50%;
+
+    }
+}

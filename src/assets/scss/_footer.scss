@@ -1,0 +1,66 @@
+.ba-footer {
+    padding: 140px 0 85px;
+    display: block;
+    position: relative;
+    overflow: hidden;
+
+    &__logo {
+        color: $green;
+        font-size: 61px;
+        font-family: $secondary-font-family;
+
+        p {
+            margin-bottom: 25px;
+            line-height: 1.1;
+        }
+    }
+
+    &__middle {
+        padding-top: 25px;
+        padding-left: 17px;
+        padding-right: 70px;
+    }
+
+    &__address {
+        font-size: 20px;
+        color: #373737;
+    }
+
+    &__button {
+        width: 360px;
+        margin-top: 40px;
+    }
+
+    &__background {
+
+        &--left,
+        &--right {
+            position: absolute;
+            z-index: -1;
+            overflow: hidden;
+        }
+
+        &--left {
+            width: 437px;
+            height: 385px;
+            background-image: url(../img/footer_left.svg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            left: -110px;
+            top: 27%
+        }
+
+        &--right {
+            width: 416px;
+            height: 499px;
+            background-image: url(../img/footer_right.svg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            top: 6%;
+            right: -17px;
+
+        }
+    }
+
+
+}
